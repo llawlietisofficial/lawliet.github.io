@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel';
+    transition: 0.5s;
+    user-select: none;
+}
+
+.topnav {
+    background-color: rgb(3, 23, 80);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    /* padding: 14px 16px; */
+    padding: 20px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    border-bottom: 4px solid white;
+}
+
+.topnav a.active {
+    border-bottom: 4px solid white;
+}
+
+.heading-text {
+    text-align: center;
+    padding: 60px;
+    font-size: 3.5em;
+    color: white;
+}
+
+.heading {
+    background-image: linear-gradient(to bottom, rgb(3, 23, 80), rgb(72, 145, 218));
+    height: 100vh;
+}
+
+.heading h2 {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    background-image: linear-gradient(to bottom, rgb(3, 23, 80), rgb(72, 145, 218));
+    height: 100vh;
+}
+
+.letter {
+    padding: 40px;
+    color: white;
+    font-size: 2em;
+}
+
+.goals {
+    color: white;
+    padding: 30px;
+}
+
+.instagram {
+    color: white;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.instagram a {
+    padding: 20px;
+    font-size: 2em;
+}
+
+.twitter {
+    color: white;
+    padding: 30px;
+}
+
+.twitter a {
+    padding: 20px;
+    font-size: 2em;
+}
